@@ -1,0 +1,20 @@
+{
+  "name": "anatolkravchenko/test2",
+  "description": "Anatol Magento 2 test Extension",
+  "require": {
+    "php": ">=5.5"
+  },
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "license": [
+    "EULA"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Anatol\\Test\\": ""
+    }
+  }
+}
